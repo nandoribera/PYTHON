@@ -8,7 +8,7 @@ def isVowel2(char):
 	letra = char.lower()
 
 	#Tupla de vocales
-	vocales = ("a","e","i","o","u")
+	vocales = ("a","e","i","o","u","á","é","í","ó","ú","ü")
 
 	#comprobar si letra se encuentra dentro de la tupla de vocales
 	if letra in vocales:

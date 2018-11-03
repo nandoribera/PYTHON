@@ -5,16 +5,13 @@ def contar_vocales(cadena):
 	cadena = cadena.lower()
 
 	#Tupla de vocales
-	vocales = ("a","e","i","o","u","á","é","í","ó","ú")
+	vocales = ("a","e","i","o","u","á","é","í","ó","ú","ü")
 
 	#comprobar si letra se encuentra dentro de la tupla de vocales
 	contador = 0
 	for x in range (len(cadena)):
 		if cadena[x] in vocales:
 			contador += 1
-			x += 1
-		else:
-			x += 1
 
 	return contador
 

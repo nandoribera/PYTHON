@@ -9,10 +9,10 @@ def area_triangulo(base,altura):
 
 
 
-"""El usuario uintroduce la base y la altura del triangulo.
+#El usuario introduce la base y la altura del triangulo.
 
-Se realiza un try para comprobar la introducción de los valores
-de las variables, el programa contempla la introducción de float"""
+#Se realiza un try para comprobar la introducción de los valores
+#de las variables, el programa contempla la introducción de float
 try:
 	base = float(input("Introduzca la base: "))
 	altura = float(input("Introduzca la altura: "))
